@@ -1,0 +1,39 @@
+.Celda1{
+    border: 2px solid black;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.Celda2{
+    border: 2px solid black;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.Celda3{
+    border: 2px solid black;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.Celda4{
+    border: 2px solid black;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.Celda5{
+    border: 2px solid black;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
