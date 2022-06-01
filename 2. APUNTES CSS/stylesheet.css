@@ -1,0 +1,36 @@
+.celdas{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 35%;
+}
+
+div.celdas{
+    width: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px black;
+}
+
+.celda1{
+    background-color: red;
+}
+
+.celda2{
+    background-color: green;
+}
+
+.celda3{
+    background-color: blue;
+}
+
+.celda4{
+    background-color: black;
+}
+
+.celda5{
+    background-color: yellow
+    ;
+}

@@ -1,0 +1,14 @@
+body {background-color: yellow;}  /*con este comando cambiamos el color de TODO el body, en este caso a amarillo*/
+
+h1 {color: blue;}  /*con este comando cambiamos el color de el h1*/
+
+table {background: orange;} /*con este comando cambiamos el color de TODA la tabla*/
+
+
+.impar{ /*en este caso solo editamos de la manera deseada solo los objetos con clase "impar", añadiendo en este caso un punto y lo que queramos editar entre {}*/
+    background-color:grey;
+}
+    
+.par{ /*en este caso solo los de la clase "par"*/
+    background-color:red;
+    }

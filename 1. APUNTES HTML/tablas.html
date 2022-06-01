@@ -1,0 +1,92 @@
+<html>
+
+	<head>
+
+	</head>
+
+	<body>
+        <!--TABLAS-->
+        <table border="1"> <!--abrimos la tabla con <table> y ponemos el tipo de borde que queremos--> 
+            <tr> <!--por cada <tr> se crea una línea de celdas debajo-->
+                <td>celda 1</td> <!--por cada <td> se crea una línea de celdas a la derecha-->
+                <td>celda 2</td>
+            </tr>
+            <tr>
+                <td>celda 3</td>
+                <td>celda 4</td>
+            </tr>
+            <tr>
+                <td>celda 5</td>
+            </tr>
+            <tr>
+                <td>celda 6</td>
+                <td>celda 7</td>
+            </tr>
+        </table> <!--para cerrar la tabla sirve con poner solo </table>-->
+        
+        <table border="1"> <!--si hacemos otro comando <table> se crea otra tabla debajo-->
+            <tr>
+                <th>cabecera 1</th> <!--si ponemos <th> saldrá el texto de la celda en negrita-->
+                <th>cabecera 2</th>
+                <th>cabecera 3</th>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+            </tr>
+            <tr>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+            </tr>
+            <tr>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+            </tr>
+        </table>
+
+        <table border="1">
+            <tr>
+                <th>cabecera 1</th>
+                <th>cabecera 2</th>
+                <th>cabecera 3</th>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td colspan="2">celda 2</td> <!--con poner colspan al lado de td podemos crear una celda conjunta hacia la derecha, en este caso de 2-->
+            </tr>
+            <tr>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+            </tr>
+            <tr>
+                <td colspan="3">celda 7</td> <!--en este caso es un colspan de 3-->
+            </tr>
+            </table>
+
+            <table border="1">
+                <tr>
+                    <th>cabecera 1</th>
+                    <th>cabecera 2</th>            
+                    <th>cabecera 3</th>
+                </tr>                             
+                <tr>
+                    <td>celda 1</td>
+                    <td>celda 2</td>
+                    <td rowspan="2">celda 3</td> <!--con poner colspan al lado de td podemos crear una celda conjunta hacia debajo, en este caso de 2-->
+                </tr>
+                <tr>
+                    <td>celda 4</td>
+                    <td>celda 5</td>
+                </tr>
+                <tr>
+                    <td>celda 7</td>
+                    <td>celda 8</td>
+                    <td>celda 9</td>
+                </tr>
+            </table>
+    </body>
+
+</html>

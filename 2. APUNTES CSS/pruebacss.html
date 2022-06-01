@@ -1,0 +1,64 @@
+<html>
+
+	<head>
+		<!--CSS EXTERNO-->
+		<link rel="stylesheet" href="stylesheet.css" /> <!--para incluir un css añadimos la etiqueta <link> y seguido de href ponemos el nombre de nuestra hoja de estilos que se encuentre en la misma carpeta que el HTML-->
+		
+		<link rel="stylesheet" href="estilo1.css" /><!--podemos añadir varios CSS siempre y cuando el nombre no se repita-->
+		<link rel="stylesheet" href="estilo2.css" />
+	</head>
+
+	<body>
+		<!--CSS INTEGRADO-->
+        <p style="color: red;">Texto de color rojo</p> <!--ponemos style en <p> para darle color, en este caso rojo y ponemos el texto entre <p> y </p>-->
+		<table style="background:blue;"></table>
+
+
+			<h1>TEXTO DE PRUEBA AZUL</h1> <!--introducimos el texto aquí para editarlo en el CSS (ver CSS estilo1)-->
+			
+			<table border="1">
+				<tr>
+					<th colspan="4">TABLA</th>
+				</tr>
+				<tr>
+					<td>celda 1</td>
+					<td>celda 2</td>
+					<td>celda 3</td>
+					<td>celda 4</td>
+				</tr>
+			</table><br>
+
+		<!--CLASES-->
+			<table>
+				<tr class="impar"> <!--si ponemos class="" podemos asignar una clase y en el CSS podremos editar objetos con la clase asignada (ver CSS estilo1)-->
+					<td>1</td>
+				</tr>
+				<tr class="par">
+					<td>2</td>
+				</tr>
+				<tr class="impar">
+					<td>1</td>
+				</tr>
+				<tr class="par">
+					<td>2</td>
+				</tr>
+			</table>
+
+
+			<table>
+				<tr class=”impar” id=”row1”>
+					<td>1</td>
+				</tr>
+				<tr class=”par” id=”row2”>
+					<td>2</td>
+				</tr>
+				<tr class=”impar” id=”row3”>
+					<td>1</td>
+				</tr>
+				<tr class=”par” id=”row4”>
+					<td>2</td>
+				</tr>
+			</table>
+	</body>
+
+</html>
